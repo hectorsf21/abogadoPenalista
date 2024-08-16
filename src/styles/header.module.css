@@ -1,0 +1,336 @@
+.containerDesk {
+  display: none;
+}
+
+.containerMobile {
+  /* background: linear-gradient(53.17deg, #0a0a0a 52.76%, #404040 111.72%); */
+  color: white;
+}
+
+.headerMobile{
+  background: linear-gradient(53.17deg, #0A0A0A 52.76%, #404040 111.72%);
+}
+
+.headerMobileContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto {
+  font-weight: 700;
+}
+
+.texto p {
+  color: #e6b767;
+  margin: 0;
+  font-size: 14px;
+}
+.texto h1 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.texto h4 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section .parrafo p {
+  text-align: center;
+  margin: auto;
+  max-width: 340px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.buttonMas {
+  width: 100%;
+}
+.buttonMas .button span {
+  margin-right: 10px;
+  font-size: 12px;
+font-weight: 700;
+}
+.buttonMas .button {
+  border: none;
+  width: 100%;
+  max-width: 340px;
+  color: white;
+  background: #ffac1c;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  margin: 0 auto 44px auto;
+}
+.image {
+  min-width: 150px;
+  max-width: 150px;
+  display: flex;
+}
+
+@media (max-width: 355px) {
+  .buttonMas .button {
+    width: 200px;
+  }
+}
+
+.numero {
+  display: flex;
+  width: 100%;
+  max-width: 340px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.numero div h3:nth-child(1) {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.numero div h3:nth-child(2) {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.numero div h3:nth-child(3) {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .containerMobile {
+    display: none;
+  }
+  .containerDesk {
+    display: block;
+    background: transparent;
+    color: white;
+  }
+  .headerDesk {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .textoDesk {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+  /* Abogado penalista */
+  .textoDesk h5 {
+    color: #e6b767;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  /* AMPLIA TRAYECTORIA */
+  .textoDesk h1 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  /* Especialista en defensa personal */
+  .textoDesk h4 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+
+  /* si tienes un.. */
+  .parrafoDesk p {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 18px;
+  }
+  .buttonMasDesk button {
+    border: none;
+    color: white;
+    background: #ffac1c;
+    font-weight: 700;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding:4px 18px;
+  }
+
+  .buttonMasDesk .text {
+    font-size: 12px;
+  }
+  .buttonMasDesk .flecha {
+    width: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .numeroDesk {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .firstNumber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /* Numeros grandes */
+  .first {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+   
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+  }
+  .second p {
+    margin: 0;
+  }
+  /* CASOS ANOS CLIENTES */
+  .second h3:nth-child(1) {
+    font-size: 9px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+    line-height: 0.9;
+  }
+  /* RESULTADOS EXPERIENCIA SATISFECHO */
+  .second h3:nth-child(2) {
+    font-size: 8px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .imageDesk {
+    min-width: 260px;
+    max-width: 260px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+/* 1000 */
+@media (min-width: 1000px) {
+  /* contenedor */
+  .headerDesk{
+    align-items:center;
+  }
+  .textoDesk{
+    align-self: center;
+  }
+  /* Abogado penalista */
+  .textoDesk h5 {
+    font-size: 23px;
+  }
+  /* AMPLIA TRAYECTORIA */
+  .textoDesk h1 {
+    font-size: 46px;
+  }
+  /* Especialista en defensa personal */
+  .textoDesk h4 {
+    font-size:26px;
+  }
+  /* si tienes un.. */
+  .parrafoDesk p {
+    font-size: 16px;
+  }
+  /* boton */
+  .buttonMasDesk .text {
+    font-size: 16px;
+  }
+  /* Numeros grandes */
+  .first {
+    font-size:32px;
+  }
+  /* CASOS ANOS CLIENTES */
+  .second p:nth-child(1) {
+    font-size: 15px;
+    line-height: 1;
+  }
+  /* RESULTADOS EXPERIENCIA SATISFECHO */
+  .second p:nth-child(2) {
+    font-size: 11px;
+  }
+  .imageDesk {
+    max-width:384px;
+  }
+}
+@media (min-width: 1200px){
+  .imageDesk {
+    max-width:562px;
+  }
+  .buttonMasDesk button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 11px 25px;
+  }
+   /* AMPLIA TRAYECTORIA */
+   .textoDesk h1 {
+    font-size:40px;
+  }
+   /* si tienes un.. */
+   .parrafoDesk p {
+    font-size:18px;
+  }
+  /* Numeros grandes */
+  .first {
+    font-size:48px;
+  }
+   /* CASOS ANOS CLIENTES */
+   .second p:nth-child(1) {
+    font-size:18px;
+  }
+   /* RESULTADOS EXPERIENCIA SATISFECHO */
+   .second p:nth-child(2) {
+    font-size: 13px;
+  }
+  /* boton */
+  .buttonMasDesk .text {
+    font-size: 20px;
+  }
+  /* flecha */
+  .buttonMasDesk .flecha{
+    width: 27px;
+  }
+}
+@media (min-width: 1400px){
+   /* Numeros grandes */
+   .first {
+    font-size:55px;
+  }
+    /* CASOS ANOS CLIENTES */
+    .second p:nth-child(1) {
+      font-size:23px;
+    }
+}

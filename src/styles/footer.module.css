@@ -1,0 +1,207 @@
+.containerDeskFooter{
+    display: none;
+} 
+.containerMobileFooter{
+    background: #161717;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.superiorMobileFooter{
+    padding:0 30px;
+}
+.descripMobile{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 40px;
+    margin-bottom: 44px;
+}
+.groupSocial{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.yellowFace,
+.yellowTwitter,
+.yellowYoutube,
+.yellowLinkedin,
+.yellowInstagram
+{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:.2s ease-in;
+    cursor: pointer;
+}
+.yellowFace:hover{
+    background:white
+}
+.yellowTwitter:hover{
+    background:white
+}
+.yellowYoutube:hover{
+    background:white
+}
+.yellowLinkedin:hover{
+    background:white
+}
+.yellowInstagram:hover{
+    background:white
+}
+
+.lineaBlanca{
+    background: #3D3F4E;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 27px;
+}
+.textoFinal{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+/* DESK */
+@media (min-width:938px){
+    .containerMobileFooter{
+        display: none;
+    }
+    .containerDeskFooter{
+        display: block;
+        background: #161717;
+        color: white;
+        padding-bottom: 10px;
+    }
+    .containerDeskSuperior{
+        padding-top: 51px;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+
+    /* columna uno */
+    .columUno{
+        max-width: 400px;
+    }
+    .columUnoDescription{
+        margin-top:20px;
+        margin-bottom: 44px;
+    }
+    .groupSocialDesk{
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .yellowFaceDesk,
+    .yellowTwitterDesk,
+    .yellowYoutubeDesk,
+    .yellowLinkedinDesk,
+    .yellowInstagramDesk{
+        width: 58px;
+        height: 58px;
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition:.2s ease-in;
+        cursor: pointer;
+    }
+    .yellowFaceDesk:hover{
+        background:white
+    }
+    .yellowTwitterDesk:hover{
+        background:white
+    }
+    .yellowYoutubeDesk:hover{
+        background:white
+    }
+    .yellowLinkedinDesk:hover{
+        background:white
+    }
+    .yellowInstagramDesk:hover{
+        background:white
+    }
+    /* columna dos */
+    .columDosTtitle{
+        margin-top: 0;
+        margin-bottom: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .columnaDos ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .columnaDos ul li{
+        margin-bottom: 16px;
+    }
+    /* columna tres */
+    .columTresTtitle{
+        margin-top: 0;
+        margin-bottom: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .columnaTres ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .columnaTres ul li{
+        margin-bottom: 24px;
+    }
+    /* columna cuatro */
+    .columCuatroTtitle{
+        margin-top: 0;
+        margin-bottom: 24px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .direcctionFooterDesk,
+    .telefonoFooterDesk,
+    .MailFooterDesk{
+        display: flex;
+        justify-content:flex-start;
+        align-items:flex-start;
+    }
+    .direcctionFooterDesk p,
+    .telefonoFooterDesk p,
+    .MailFooterDesk p{
+        margin-left: 20px;
+        margin-top:-4px;
+
+    }
+    .textoFinalDesk{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }    
+}
+@media(min-width:1000px){
+    .containerDeskSuperior{
+        padding: 0 50px;
+        padding-top: 51px;
+    }
+}
+@media(min-width:1440px){
+    .containerDeskSuperior{
+        padding: 0 80px;
+        padding-top: 51px;
+    }
+}

@@ -1,0 +1,184 @@
+.navbarToggler{
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: none;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.navbarTogglerIcon{
+    background: url(../img/hamburguer.png) no-repeat;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navMobile{
+    background: #161717;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 45px;
+}
+
+.logoMobile{
+    width:200px;
+}
+.navContainerDesk{
+    display: none;
+}
+.HeaderContainerDesk{
+    display: none;
+}
+.navContactMobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.navContactMobile a{
+    display: flex;
+}
+.navContactMobile .number{
+    display: flex;
+    align-items: center;
+}
+.navContactMobile .email{
+    display: flex;
+    align-items: center;
+}
+.navMobile span{
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 8px;
+}
+@media(min-width:500px){
+    .navContactMobile{
+        display: flex;
+        justify-content:space-between;      
+    }
+}
+@media(min-width:800px){
+    .navMobileBootstrap{
+       display: none;
+    }
+    .navMobile{
+        display: none;
+    }
+    .navContainerDesk{
+        display: block;
+        background: #161717;
+        color: white;
+        font-weight: 700;  
+        font-size: 12px;
+    }
+    .navDesk{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 81px;
+        width:100%;
+        margin: auto;
+    }
+    .navContactDesk{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .navContactDesk a{
+        display: flex;
+    }
+    .navContactDesk span{
+        margin-left: 8px;
+    }
+    .numberDesk{
+        display: flex;
+        align-items: center;
+        margin-right:20px;
+    }
+    .emailDesk{
+        display: flex;
+        align-items: center;
+    }
+    .navIconAndContact{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navRedSocial{
+        display: flex;
+        align-items:center;
+    }
+    .icon{
+        width: 12px;
+    }
+    .iconFace{
+        width: 7px;
+    }
+    .navRedSocial > div{
+        margin: 0 10px;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navRedSocial div:nth-child(5){
+        margin-right: 40px;
+    }
+    .contactDesk button{
+        display: flex;
+        align-items: center;
+        padding: 7px 13px;
+        height: 38px;
+        border: none;
+        border-radius: 8px;
+        background: #FFAC1C;
+        color: white;
+    }
+    .contactDesk button span{
+        margin-left: 10px;
+        font-weight: 700;
+    }
+    /* NAV */
+
+    .HeaderContainerDesk{
+        display: block;
+        background: transparent;
+        color: white;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .containerDeskNav{
+        display: flex;
+        margin: auto;
+        padding-top: 28px;
+        padding-bottom: 30px;
+        justify-content:space-between;
+        justify-items: center;
+    }
+    .navlogoDesk{
+        max-width: 194px;
+    }
+
+    .barNav{
+        display: flex;
+        align-items: center;
+    }
+
+    .barNav ul{
+        display: flex;
+        align-items: center;
+    }
+
+    .barNav ul li{
+        list-style: none;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}

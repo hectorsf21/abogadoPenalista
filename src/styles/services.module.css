@@ -1,0 +1,88 @@
+.container {
+  background-image: url("../img/bg-servicios.png");
+  padding: 80px 0px;
+  background-size: contain;
+}
+.box{
+  overflow: none!important;
+}
+.titleServices {
+  text-align: center;
+}
+
+.titleServices h3 {
+  color: var(--secundary-color);
+  font-size: 28px;
+  font-weight: 700;
+}
+.titleServices h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #121E31;
+  line-height: 1.5;
+  max-width: 779px;
+  margin: auto;
+  text-align: center;
+  margin-top: 43px;
+  margin-bottom:49px;
+}
+@media (min-width:800px) {
+  .titleServices h1 {
+    font-size: 50px;
+    margin-bottom:153px;
+  }
+}
+
+.box{
+  border: 1px solid #fbfbfb;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+  background: white;
+  width: 350px;
+  margin: auto;
+  height: 345px;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box a {
+  color: var(--secundary-color)!important;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.icons{
+  max-width: 48px;
+}
+
+.iconsModal{
+  max-width: 48px;
+  margin-bottom: 20px;
+}
+@media (min-width: 400px) {
+  .box {
+    width:auto
+  }
+}
+@media (min-width:1200px){
+  .filaUno{
+    margin-bottom: 150px;
+  }
+}
+@media (min-width:1440px){
+  .box {
+    width:305px;
+    
+  }
+  .filaUno{
+    margin-bottom: 150px;
+  }
+}
+.textSquare{
+  font-size: 16px;
+  color:var(--secundary-text);
+}

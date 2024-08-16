@@ -1,0 +1,5 @@
+.homeHeader{
+    background: url(../img/bg-main.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
