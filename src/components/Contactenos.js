@@ -3,8 +3,8 @@ import Image from 'next/image';
 import iconCelContacto from '../img/icon-cel-contacto.png';
 import iconMailContacto from '../img/icon-mail-contacto.png';
 import iconDirecContacto from '../img/icon-direc-contacto.png';
-import mapaDesk from '../img/mapaDesk.png';
-import mapaMobile from '../img/mapaMobile.png';
+import mapaDesk from '../img/mapadesk.png';
+import mapaMobile from '../img/mapamobile.png';
 import contacto from '../styles/contacto.module.css';
 
 export default function Contactenos() {
